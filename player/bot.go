@@ -20,7 +20,6 @@ func (p Bot) GetName() string {
 	// HINWEIS:
 	// Greifen Sie mit p.Name auf den Namen des Spielers zu.
 	return p.Name
-	// solution:end
 }
 
 // GetScore liefert den Punktestand des Spielers.
