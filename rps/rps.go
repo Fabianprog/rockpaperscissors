@@ -24,8 +24,11 @@ func main() {
 	} else {
 		fmt.Println("Einzelspielerspiel")
 	}
+	var rounds int
+	fmt.Println("Wie viele Runden möchtest du spielen?")
+	fmt.Scanln(&rounds)
 
-	for i := 0; i < 10; i++ {
+	for i := 0; i < rounds; i++ {
 		g.Play()
 	}
 }
